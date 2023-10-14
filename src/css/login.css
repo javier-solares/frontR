@@ -1,0 +1,74 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.subcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subcontainer .form_container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 50px;
+}
+.subcontainer .form_container label{
+   font-size: 20px;
+   color: #a98950;
+  }
+.subcontainer .form_container input{
+  height: 25px;
+  font-size: 20px;
+  border: solid 2.5px #a98950;
+  background-color: white;
+}
+.subcontainer .form_container input:first-child{
+  margin-top: 25px;
+}
+.subcontainer .form_container .loginbutton{
+    height: 35px;
+    margin-top: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+   background-color: #a98950;
+   border: solid 2px black;
+   text-align: center;
+  }
+.subform{
+    color: #a98950;
+    padding: 25px;
+    margin-top: 50px;
+    border: solid 2px #a98950;
+    height: 200px;
+}
+.subform button{
+    height: 35px;
+    font-size: 10px;
+    border-radius: 5px;
+   background-color: #a98950;
+   border: solid 2px black;
+   text-align: center;
+   color: white;
+   width: 100%;
+   
+}
+.subform .containerbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  @media screen and (max-width: 767px) {
+    .subcontainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .subcontainer .form_container{
+        margin-left: 0;
+    }
+  }

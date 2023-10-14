@@ -1,0 +1,35 @@
+  /* Estilos para el calendario */
+  .calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.month {
+
+    color: black;
+    text-align: center;
+
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    width: 800px;
+}
+
+.day {
+    width: 10.28%; /* Cada día ocupa 1/7 del ancho (7 días en una semana) */
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.day:hover {
+    background-color: #ddd;
+}

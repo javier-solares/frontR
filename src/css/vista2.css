@@ -1,0 +1,99 @@
+/* Estilos para el contenedor general */
+/* .contenedor-general {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2C0F2B;
+   
+  }
+   */
+body{
+    background-color: #2C0F2B;
+}
+
+  /* Estilos para el primer contenedor de imagen */
+  .contenedor-imagen {
+    background-image: url('../../img/fondos/fondoHotel.jpg'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    flex: 1;
+    width: 100vw; 
+    /* margin-right: 200px; */
+    height: 70vh; 
+    margin-top: 20px;
+    /* margin-bottom: 50px; */
+    /* margin-top: 25px; */
+  }
+  
+  /* Estilos para la imagen en el primer contenedor */
+  /* .imagen {
+    width: 100vw; 
+    height: 100vh; 
+  }
+   */
+.container{
+    max-width: 100%; /* Ancho máximo del contenedor */
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc; /* Borde opcional */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+}
+
+  /* Estilos para el segundo contenedor dividido en dos partes */
+  .contenedor-texto-imagen {
+    display: flex;
+    flex: 1;
+    max-width: 100vw;
+    background-color: #ffffff;
+  }
+  /* Estilos para la parte de texto */
+  .contenedor-texto {
+    flex: 1;
+    padding: 20px;
+    /* Agregar un borde negro */
+    /* border: 1px solid #000;  */
+    max-width: 50%; /* Ancho máximo del contenedor */
+    flex-direction: column; /* Para centrar el contenido verticalmente */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 10%; /* Margen de separación a los lados */
+  }
+  
+  /* Estilos para el título del texto */
+  .contenedor-texto h3 {
+    font-size: 24px;
+    margin: 0;
+    color: #BD9D56;
+    margin-bottom: 25px;
+  }
+
+  .contenedor-texto h2{
+    margin-bottom: 25px;
+  } 
+  /* Estilos para el párrafo de texto */
+  .contenedor-texto p {
+    margin: 0;
+    margin-bottom: 25px;
+  }
+  
+  /* Estilos para la imagen en el segundo contenedor */
+  .container-img img {
+    max-width: 50vw;
+    height: 50vh;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    align-items: center;
+    padding: 20px;
+    margin-left: 75px; 
+  }
+
+  .texto{
+    margin-left: 100px;
+    color: #BD9D56;
+    text-align: center;
+  }
+  
