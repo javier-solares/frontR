@@ -1,17 +1,20 @@
-import '../css/gallery1.css'; // Asegúrate de importar tus estilos CSS
+import '../css/gallery1.css'; 
+// import React from 'react';
+import Header from './header'; 
+import Footer from './footer';
 
 function Gallery1() {
-  return (
+    return (
+    
     <div className="contenedor">
+        <Header/>
         <div className="fondo">
-            {/* Div principal con imagen de fondo */
+            {
                 // <img src="../../img/fondos/gradas.jpg" alt="Fondos" />  
             }
         </div>
-            <div className="container">
-                {/* Div con contenido de imágenes */}
+            <div className="container">              
                 <div className="imagenes1-container">
-                {/* Aquí puedes mapear tu colección de imágenes */}
                 {/* <h3>Anenidades</h3>  */}
                     <img src="../../img/fondos/salon 2.jpg" alt="Imagen 1" className="imagen" />
                     <img src="../../img/fondos/piscina.jpg" alt="Imagen 2" className="imagen" />
@@ -41,6 +44,7 @@ function Gallery1() {
                     <img src="../../img/Gastronomia/salon.jpg" alt="Imagen 3" className="imagen" />
                 </div>
             </div>
+            <Footer/>
     </div>
     );
 }

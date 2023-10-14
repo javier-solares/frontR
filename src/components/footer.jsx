@@ -16,8 +16,7 @@ export default function Footer() {
             <p>Instalaciones</p>
         </div>
         <div>
-        <h2>Redes Sociales</h2>
-           
+        <h2>Redes Sociales</h2>          
             <p>Facebook</p>
             <p>Instagram</p>
             <p>Twitter</p>

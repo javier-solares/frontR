@@ -1,5 +1,6 @@
 import "../css/header.css";
 import Logo from "../assets/Logo.png";
+// import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <header>
@@ -12,7 +13,7 @@ export default function Header() {
             <a href="#">Inicio</a>
           </li>
           <li>
-            <a href="#">Habitaciones</a>
+          {/* <Link to="/habitaciones">Habitaciones</Link> */}
           </li>
           <li>
             <a href="#">Instalaciones</a>
